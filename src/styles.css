@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background-color: #0f0f17;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+html,
+#root {
+  background-color: #0f0f17;
+  min-height: 100%;
+}
+/* Encabezado */
+.navbar {
+  background: linear-gradient(90deg, #5b00ff, #009dff) !important;
+  box-shadow: 0 0 15px rgba(91, 0, 255, 0.6);
+}
+
+.navbar h1 {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar p {
+  color: #e6e6e6;
+}
+
+/* Título */
+.container h2 {
+  color: #ffffff;
+}
+
+/* Buscador */
+.form-control {
+  background-color: #1c1c28;
+  color: white;
+  border: 1px solid #6f42c1;
+}
+
+.form-control::placeholder {
+  color: #aaaaaa;
+}
+
+/* Tarjetas de usuarios */
+.card {
+  background-color: #191925;
+  color: #ffffff;
+  border: 1px solid #6f42c1;
+  border-radius: 12px;
+}
+
+.card-title {
+  color: #8f7cff;
+}
+
+/* Pie de página */
+footer {
+  color: #aaaaaa !important;
+}
+/* Imágenes de las tarjetas */
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
